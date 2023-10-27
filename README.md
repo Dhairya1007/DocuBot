@@ -23,7 +23,7 @@ DocuBot is a powerful and versatile AI Chatbot that uses advanced natural langua
    - Run the command: `python3 app.py`
 
 ### Frontend Setup
-Note: In fact, the entire UI component on this project was created by ChatGPT! 
+_Note: The entire UI component on this project was created by ChatGPT!_ 
 
 1. **Install Dependencies:**
    - Navigate to the `chatbot-frontend` directory.
