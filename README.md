@@ -7,7 +7,7 @@ DocuBot is a powerful and versatile AI Chatbot that uses advanced natural langua
 - **Document Indexing:** DocuBot processes both plain text (txt) and PDF files, creating vector embeddings for efficient and accurate answers.
 - **Natural Language Search:** Utilizing OpenAI's cutting-edge technology, DocuBot understands your queries in natural language, ensuring accurate and relevant search results.
 - **Flask Backend:** The backend of DocuBot is built using Python and Flask, providing a robust and scalable foundation for document processing and API interactions.
-- **Responsive React Frontend:** The user-friendly frontend, developed in React, offers a seamless experience across devices, making it easy to search, train, and manage documents.
+- **Responsive React Frontend:** The user-friendly and simple frontend, developed in React.
 
 ## Getting Started
 
@@ -19,6 +19,7 @@ DocuBot is a powerful and versatile AI Chatbot that uses advanced natural langua
 
 2. **Start the Backend:**
    - Navigate to the `backend` directory.
+   - Run the command `pip3 install -r requirements.txt` to install all the required packages.
    - Run the command: `python3 app.py`
 
 ### Frontend Setup
