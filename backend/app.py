@@ -5,7 +5,7 @@ from llama_index import StorageContext, load_index_from_storage
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
-open_ai_key = "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"
+open_ai_key = "paste-your-API-key-here"
 openai.api_key = open_ai_key
 
 # Create a folder for storing model outputs if it doesn't exist
