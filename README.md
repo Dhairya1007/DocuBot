@@ -43,7 +43,7 @@ Note: In fact, the entire UI component on this project was created by ChatGPT!
 
 2. **Searching:**
    - Enter your queries in natural language on the frontend.
-   - DocuBot provides relevant search results based on the trained documents.
+   - DocuBot provides answers based on the trained documents.
 
 ## Future Plans
 
