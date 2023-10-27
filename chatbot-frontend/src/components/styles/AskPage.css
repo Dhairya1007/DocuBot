@@ -1,0 +1,117 @@
+/* AskPage.css */
+.chat-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .chat-box {
+    background-color: #f0f0f0;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Arial Black', sans-serif;
+    color: #333;
+  }
+  
+  select, input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+    margin-right: 10px;
+  }
+  
+  .chat-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .question-bubble {
+    background-color: #ccc;
+    color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    align-self: flex-start;
+  }
+  
+  .answer-bubble {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    align-self: flex-end;
+  }
+  
+  .input-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+/* AskPage.css */
+/* ... other styles ... */
+
+.chat-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-bubble {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.question-bubble {
+  background-color: #ccc;
+  color: #000;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
+.response-bubble {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: justify;
+  margin-bottom: 5px;
+  margin-left: auto; /* Push response bubble to the right */
+}
+
+.question-input {
+  width: calc(100% - 22px);
+  margin-right: 10px;
+  text-align: justify;
+}
+
+.ask-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+  
